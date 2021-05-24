@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/frankli-dev/go-ethereum/common/math"
+	"github.com/frankli-dev/go-ethereum/core"
+	"github.com/frankli-dev/go-ethereum/ethdb"
+	"github.com/frankli-dev/go-ethereum/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

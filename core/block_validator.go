@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/frankli-dev/go-ethereum/consensus"
+	"github.com/frankli-dev/go-ethereum/core/state"
+	"github.com/frankli-dev/go-ethereum/core/types"
+	"github.com/frankli-dev/go-ethereum/params"
+	"github.com/frankli-dev/go-ethereum/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

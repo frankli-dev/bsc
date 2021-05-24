@@ -18,8 +18,8 @@
 package ethconfig
 
 import (
-	"github.com/ethereum/go-ethereum/consensus/parlia"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/frankli-dev/go-ethereum/consensus/parlia"
+	"github.com/frankli-dev/go-ethereum/internal/ethapi"
 	"math/big"
 	"os"
 	"os/user"
@@ -27,18 +27,18 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/frankli-dev/go-ethereum/common"
+	"github.com/frankli-dev/go-ethereum/consensus"
+	"github.com/frankli-dev/go-ethereum/consensus/clique"
+	"github.com/frankli-dev/go-ethereum/consensus/ethash"
+	"github.com/frankli-dev/go-ethereum/core"
+	"github.com/frankli-dev/go-ethereum/eth/downloader"
+	"github.com/frankli-dev/go-ethereum/eth/gasprice"
+	"github.com/frankli-dev/go-ethereum/ethdb"
+	"github.com/frankli-dev/go-ethereum/log"
+	"github.com/frankli-dev/go-ethereum/miner"
+	"github.com/frankli-dev/go-ethereum/node"
+	"github.com/frankli-dev/go-ethereum/params"
 )
 
 // FullNodeGPO contains default gasprice oracle settings for full node.

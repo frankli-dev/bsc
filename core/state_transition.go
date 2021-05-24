@@ -21,11 +21,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/frankli-dev/go-ethereum/common"
+	"github.com/frankli-dev/go-ethereum/consensus"
+	"github.com/frankli-dev/go-ethereum/core/types"
+	"github.com/frankli-dev/go-ethereum/core/vm"
+	"github.com/frankli-dev/go-ethereum/params"
 )
 
 /*

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/frankli-dev/go-ethereum/common/fdlimit"
+	"github.com/frankli-dev/go-ethereum/internal/flags"
+	"github.com/frankli-dev/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

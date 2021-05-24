@@ -21,10 +21,10 @@ import (
 	"fmt"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/frankli-dev/go-ethereum/common"
+	"github.com/frankli-dev/go-ethereum/core/rawdb"
+	"github.com/frankli-dev/go-ethereum/ethdb"
+	"github.com/frankli-dev/go-ethereum/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

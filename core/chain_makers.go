@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/systemcontracts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/frankli-dev/go-ethereum/common"
+	"github.com/frankli-dev/go-ethereum/consensus"
+	"github.com/frankli-dev/go-ethereum/consensus/misc"
+	"github.com/frankli-dev/go-ethereum/core/state"
+	"github.com/frankli-dev/go-ethereum/core/systemcontracts"
+	"github.com/frankli-dev/go-ethereum/core/types"
+	"github.com/frankli-dev/go-ethereum/core/vm"
+	"github.com/frankli-dev/go-ethereum/ethdb"
+	"github.com/frankli-dev/go-ethereum/params"
 )
 
 // BlockGen creates blocks for testing.
